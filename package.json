@@ -16,5 +16,9 @@
     "url": "https://github.com/hapsan2000/system-/issues"
   },
   "homepage": "https://github.com/hapsan2000/system-#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "standard-version": "^9.5.0"
+  }
 }
