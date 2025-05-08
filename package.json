@@ -1,0 +1,20 @@
+{
+  "name": "hafsan",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapsan2000/system-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hapsan2000/system-/issues"
+  },
+  "homepage": "https://github.com/hapsan2000/system-#readme",
+  "description": ""
+}
