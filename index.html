@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Education Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Edu</span>Learn</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>Learn Without Limits</h1>
+            <p>Start, switch, or advance your career with our courses and certificates.</p>
+            <button class="btn" onclick="showCourses()">Explore Courses</button>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter">
+        <div class="container">
+            <h2>Subscribe To Our Newsletter</h2>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter Email..." required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="container">
+        <h2>Our Popular Courses</h2>
+        <div class="course-container">
+            <div class="course-card">
+                <img src="images/web-dev.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JavaScript and build real projects.</p>
+                <span class="price">$49.99</span>
+                <button class="btn">Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="images/data-science.jpg" alt="Data Science">
+                <h3>Data Science</h3>
+                <p>Master Python, Pandas, NumPy and Machine Learning.</p>
+                <span class="price">$59.99</span>
+                <button class="btn">Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="images/graphic-design.jpg" alt="Graphic Design">
+                <h3>Graphic Design</h3>
+                <p>Learn Photoshop, Illustrator and design principles.</p>
+                <span class="price">$39.99</span>
+                <button class="btn">Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>EduLearn was founded in 2023 with the mission to provide accessible and affordable education to everyone. Our platform offers high-quality courses taught by industry experts.</p>
+                    <p>We believe that education should be engaging, practical, and available to anyone with an internet connection. Join our community of over 10,000 learners today!</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <img src="images/student1.jpg" alt="Student 1">
+                    <p>"The web development course changed my career. I got a job within 2 months!"</p>
+                    <h4>- Sarah Johnson</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/student2.jpg" alt="Student 2">
+                    <p>"Excellent content and great support. Highly recommended for beginners."</p>
+                    <h4>- Michael Chen</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@edulearn.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>EduLearn &copy; 2023 | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
